@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway Integration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <img id="logo" src="https://www.thesparksfoundationsingapore.org/images/logo_small.png" alt="Sparks logo">
+        <ul class="right">
+            <li class="menu-item">Home</li>
+            <li class="menu-item"><a href="contact.html">Contact</a></li>
+        </ul>
+        <span><h2>The Sparks Foundation</h2></span>
+    </div>
+    <div class="main">
+        <h1>We need your help.</h1><br><br>
+        <p class="para">
+            “A little help with a little smile gives meaning to human life.” <br>“What you give today you get tomorrow.”<br> “Help those less fortunate than you, for it is real human existence.” <br>“The only service to be done for our downtrodden sisters and brother,<br> is to give them education to develop their individuality.</b>
+        </p><br>
+        <button class="btn"><a style="text-decoration: none;" href="donate.html">Donate</a></button>
+    </div>
+    <div id="bottom">
+        <p>©2021 Ravi Raj</p>
+    </div>  
+</body>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script>
+    gsap.from('h1',{opacity: 0, duration: 1, y:-40,})
+    gsap.from('.para',{opacity: 0, duration: 1, y:-40, delay: 0.5})
+    gsap.from('.btn',{opacity: 0, duration: 2, y: 20, delay: 0.9})
+</script>
+</html>
